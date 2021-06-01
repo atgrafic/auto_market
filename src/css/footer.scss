@@ -1,0 +1,60 @@
+@import "index.scss";
+
+footer{
+    background: $color_descripttion;
+    margin-top: 40px;
+    
+
+}
+.footer{
+    max-width: $width;
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_white {
+    width: 100px;
+    height: auto;
+    padding: 0 0 20px 0;
+}
+.small_description p, .menu_contact p,.menu_bottom a, .copyright p{
+    color:$color_white ;
+    font-size: 0.9em;
+    padding-bottom: 0;
+    font-weight: 400;
+
+}
+.small_description p{
+    width: 30%;
+}
+.menu_contact h2{
+    color: $color_white;
+    font-size: 1.2em;
+    padding: 0 0 30px 0;
+    margin: 0;
+
+}
+.menu_bottom a{
+    text-decoration: none;
+    display: flex;
+    font-family:$font_basic;
+}
+.menu_bottom a:hover{
+    color: $color_secend;
+}
+
+.menu_contact{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.copyright{
+    font-size: 0.8em;
+    width: $width;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}

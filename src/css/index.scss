@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+
+$color_descripttion: #2c2c2a;
+$color_secend: #ff8a00;
+$color_third: #e6e4e4;
+$color_white: #fff;
+$border_secend_color: 2px solid #ff8a00;
+$border_main: 1px solid #e6e4e4;
+
+$font_title: "Merriweather", serif;
+$font_basic: "Roboto", sans-serif;
+
+$width:1200px;
+
+@mixin font_description {
+    font-family: $font_basic;
+    font-size: 1em;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+    margin: 0;
+    color: $color_descripttion;
+}
+
+@mixin font_H2_span {
+    font-size: 1.6em;
+    text-align: left;
+    color: $color_descripttion;
+
+}
+@mixin button {
+    font-family: $font_title;
+    font-size: 1.6em;
+    font-weight: 700;
+    width: 200px;
+    padding: 0.25em;
+    color: $color_secend;
+    background-color: $color_white;
+    border: $border_secend_color;
+    outline: none;
+
+}
+@mixin button-orange-white{
+    font-family: $font_title;
+    font-size: 1.6em;
+    font-weight: 700;
+    width: 200px;
+    padding: 0.25em;
+    color: $color_white;
+    background-color: $color_secend;
+    border: $border_secend_color;
+    outline: none;
+}
+@mixin img_car_list {
+    width: 350px;
+    height: auto;
+}
+@mixin input {
+    color: $color_descripttion;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin: 30px auto;
+    border: $border_main;
+    font-family: $font_basic;
+    cursor: pointer;
+    outline: none;
+}
+
+@mixin style_triangle {
+    background-image: linear-gradient(45deg, transparent 50%, #2c2c2a 50%),
+        linear-gradient(135deg, #2c2c2a 50%, transparent 50%),
+        linear-gradient(to right, #e6e4e4, #e6e4e4);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    appearance: none;
+}
+
+@mixin link {
+    color: $color_descripttion;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    //max-width: 1200px;
+}

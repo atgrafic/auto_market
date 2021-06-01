@@ -1,0 +1,72 @@
+@import "index.scss";
+
+#brand {
+    @include input;
+    @include style_triangle;
+}
+
+p {
+    @include font_description;
+}
+h2 {
+    @include font_H2_span;
+    font-family: $font_basic;
+    font-weight: 500;
+    padding: 0.5em 0;
+    margin: 0 0 0 15px;
+    .description{
+        padding: 0;
+        margin: 0;
+    }
+}
+.carSearch {
+    max-width: $width;
+    width: 70%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    display: block;
+    background: $color_white;
+    box-shadow: 0px 5px 15px $color_third;
+    z-index: 1000;
+}
+.placeholder{
+    @include font_H2_span;
+    font-family: $font_title;
+    font-weight: 900;
+ }
+.car-price{
+    @include button;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.car-photo {
+    @include img_car_list;
+}
+#carsList {
+    max-width: $width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.car {
+    border: $border_main;
+    width: 350px;
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+    .car-year,
+    .car-km {
+        text-align: left;
+        margin: 0 0 0 15px;
+    }
+}
+hr {
+    margin: 10px 10px;
+    background-color: $color_third;
+    border: none;
+    height: 1px;
+}
+

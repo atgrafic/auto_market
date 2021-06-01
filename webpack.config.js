@@ -4,8 +4,9 @@ const CopyPlugin = require("copy-webpack-plugin");
 //const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  //  entry: {index: "./src/index.js"},
+
     entry: { index: "./src/index.js"  },
+
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[contenthash].bundle.js",
@@ -20,6 +21,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/index.html"
             }),
+
 
         new CopyPlugin([{ from: "src/assets/image", to: "./image" }]),
         //new CleanWebpackPlugin(),//czysci pliki w dist
@@ -54,7 +56,9 @@ module.exports = {
                     loader: "babel-loader",
                     options: {
                         presets: ["@babel/preset-env"],
+                        plugins: ['@babel/transform-runtime']
                     },
+
                 },
             },
         ],

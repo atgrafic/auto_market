@@ -1,0 +1,105 @@
+@import "index.scss";
+
+
+
+nav {
+    background: $color_white;
+    box-shadow: 0px 5px 15px $color_third;
+}
+.topNavMargin {
+    max-width: $width;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+}
+.logo {
+    width: 90px;
+    height: auto;
+    padding: 20px 0;
+}
+
+.nav_item {
+    @include font_description;
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+
+    a {
+        @include link;
+        padding-left: 25px;
+    }
+    a:hover,
+    :active {
+        color: $color_secend;
+    }
+}
+a.icon {
+    width: 20px;
+    height: auto;
+    display: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .topNavMargin{
+        display: block;
+        position: relative;
+        padding-bottom: 20px;
+        width: 85%;
+
+    }
+    .navResp{
+        display: block;
+        float: left;
+
+    }
+    .topNavMargin a:not(:first-child) {
+        display: none;
+    }
+    .topNavMargin a.icon {
+       float: right;
+        display: block;
+
+
+    }
+
+    .topNavMargin .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top:25px;
+
+    }
+    .topNavMargin .responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+     .nav_item {
+        display: block;
+        padding-top: 25px;
+        // position: absolute;
+        // top: 10px;
+        // right: 0;
+
+     }
+    .nav_item a{
+        padding-left: 0;
+
+    }
+  .padding_resp{
+       padding-top: 20px;
+      }
+.navFirst{
+    padding-top: 60px;
+}
+}
