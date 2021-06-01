@@ -1,4 +1,4 @@
-import { giveMeAll } from "./views/MarketCar.js";
+//import { giveMeAll } from "./views/marketCar.js";
 
 const json = require("../json/list.json");
 const brandList = json.carsData;

@@ -8,8 +8,9 @@ import footer from "./css/footer.scss";
 
 
 import header from "./views/header.js";
-import car from "./views/MarketCar.js";
+import car from "./views/marketCar.js";
 import contact from "./views/contact";
+
 
 //import search from "./views/search.js";
 
