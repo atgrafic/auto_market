@@ -1,31 +1,31 @@
 const path = require("path");
+
+const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-//const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+// const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-
-    entry: { index: "./src/index.js"  },
+    entry: { index: "./src/index.js" },
 
     output: {
         path: path.resolve(__dirname, "dist"),
+        publicPath: "/",
         filename: "[name].[contenthash].bundle.js",
     },
     devServer: {
         contentBase: path.join(__dirname, "dist"),
         port: 9000,
         watchContentBase: true,
-        // historyApiFallback: true
+        historyApiFallback: { index: "index.html" },
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/index.html"
-            }),
-
+            template: "./src/index.html",
+        }),
 
         new CopyPlugin([{ from: "src/assets/image", to: "./image" }]),
-        //new CleanWebpackPlugin(),//czysci pliki w dist
-
+        // new CleanWebpackPlugin(),
     ],
     module: {
         rules: [
@@ -45,7 +45,7 @@ module.exports = {
             },
             {
                 test: /\.(html)$/,
-               // include: path.resolve(__dirname, 'src'),
+                // include: path.resolve(__dirname, 'src'),
                 use: ["html-loader"],
             },
 
@@ -56,9 +56,8 @@ module.exports = {
                     loader: "babel-loader",
                     options: {
                         presets: ["@babel/preset-env"],
-                        plugins: ['@babel/transform-runtime']
+                        plugins: ["@babel/transform-runtime"],
                     },
-
                 },
             },
         ],
