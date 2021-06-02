@@ -39,6 +39,10 @@ h2 {
     margin-bottom: 20px;
     cursor: pointer;
 }
+ .car-price:hover{
+@include button-orange-white;
+    }
+
 .car-photo {
     @include img_car_list;
 }

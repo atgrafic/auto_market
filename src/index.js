@@ -5,20 +5,12 @@ import style from "./css/index.scss";
 import header_style from "./css/header.scss";
 import footer from "./css/footer.scss";
 
-
-
 import header from "./views/header.js";
 import car from "./views/marketCar.js";
 import contact from "./views/contact";
+// import about from "./views/about";
+// import sale from "./views/sale";
 
-
-//import search from "./views/search.js";
-
-// import car_html from "./car.html";
-// import car_js from "./car.js";
-
-// import form_html from "./form.html";
-// import form from "./form.js";
 
 
 
@@ -30,8 +22,8 @@ const navigateTo = url => {
 const router = async () => {
     const routes = [
         { path: "/", view: car},
-        // { path: "/sprzedaj", view:sprzedaj},
-        // { path: "/onas", view: onas },
+        // { path: "/sprzedaj", view:about},
+        // { path: "/onas", view: sale },
          { path: "/kontakt", view: contact }
     ];
 
@@ -63,6 +55,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             e.preventDefault();
             navigateTo(e.target.href);
         }
+        
     });
     router();
 })
