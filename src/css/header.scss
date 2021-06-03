@@ -15,16 +15,22 @@ nav {
     align-items: top;
 
 }
-.logo {
+
+.logoLink{
+    display: block;
     width: 90px;
-    height: auto;
-    padding: 20px 0;
+    height: 72px;
+   background: url('../assets/image/logo_black.svg') center no-repeat;
 }
+.logoWhite{
+    background: url('../assets/image/logo_white.svg') center no-repeat;
+}
+
+
 
 .nav_item {
     @include font_description;
     list-style-type: none;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,6 +40,7 @@ nav {
     a {
         @include link;
         padding-left: 25px;
+
     }
     a:hover,
     :active {

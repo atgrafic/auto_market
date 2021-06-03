@@ -8,10 +8,10 @@
     "price": "84 999 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/BMW_X5_D_1.jpg",
-        "image/BMW_X5_D_2.jpg",
-        "image/BMW_X5_D_3.jpg",
-        "image/BMW_X5_D_4.jpg"
+        "../image/BMW_X5_D_1.jpg",
+        "../image/BMW_X5_D_2.jpg",
+        "../image/BMW_X5_D_3.jpg",
+        "../image/BMW_X5_D_4.jpg"
     ]
 },
 {
@@ -23,10 +23,10 @@
     "price": "84 999 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Ford_ Edge_1.jpg",
-        "image/Ford_ Edge_2.jpg",
-        "image/Ford_ Edge_3.jpg",
-        "image/Ford_ Edge_4.jpg"
+        "../image/Ford_ Edge_1.jpg",
+        "../image/Ford_ Edge_2.jpg",
+        "../image/Ford_ Edge_3.jpg",
+        "../image/Ford_ Edge_4.jpg"
     ]
 },
 {
@@ -38,10 +38,10 @@
     "price": "102 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/BMW X1_1.jpg",
-        "image/BMW X1_2.jpg",
-        "image/BMW X1_3.jpg",
-        "image/BMW X1_4.jpg"
+        "../image/BMW X1_1.jpg",
+        "../image/BMW X1_2.jpg",
+        "../image/BMW X1_3.jpg",
+        "../image/BMW X1_4.jpg"
     ]
 },
 {
@@ -53,10 +53,10 @@
     "price": "125 352 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Kia Sportage_1.jpg",
-        "image/Kia Sportage_2.jpg",
-        "image/Kia Sportage_3.jpg",
-        "image/Kia Sportage_4.jpg"
+        "../image/Kia Sportage_1.jpg",
+        "../image/Kia Sportage_2.jpg",
+        "../image/Kia Sportage_3.jpg",
+        "../image/Kia Sportage_4.jpg"
     ]
 },
 {
@@ -68,10 +68,10 @@
     "price": "85 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Mazda_CX_5_1.jpg",
-        "image/Mazda_CX_5_2.jpg",
-        "image/Mazda_CX_5_3.jpg",
-        "image/Mazda_CX_5_4.jpg"
+        "../image/Mazda_CX_5_1.jpg",
+        "../image/Mazda_CX_5_2.jpg",
+        "../image/Mazda_CX_5_3.jpg",
+        "../image/Mazda_CX_5_4.jpg"
     ]
 },
 {
@@ -82,7 +82,7 @@
     "km": "115 301 km",
     "price": "96 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/BMW_5_1.jpg", "image/BMW_5_2.jpg", "image/BMW_5_3.jpg", "image/BMW_5_4.jpg"]
+    "image": ["../image/BMW_5_1.jpg", "../image/BMW_5_2.jpg", "../image/BMW_5_3.jpg", "../image/BMW_5_4.jpg"]
 },
 {
     "id":"7",
@@ -93,10 +93,10 @@
     "price": "70 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Mazda_6_1.jpg",
-        "image/Mazda_6_2.jpg",
-        "image/Mazda_6_3.jpg",
-        "image/Mazda_6_4.jpg"
+        "../image/Mazda_6_1.jpg",
+        "../image/Mazda_6_2.jpg",
+        "../image/Mazda_6_3.jpg",
+        "../image/Mazda_6_4.jpg"
     ]
 },
 {
@@ -108,10 +108,10 @@
     "price": "66 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Audi_A4_1.jpg",
-        "image/Audi_A4_2.jpg",
-        "image/Audi_A4_3.jpg",
-        "image/Audi_A4_4.jpg"
+        "../image/Audi_A4_1.jpg",
+        "../image/Audi_A4_2.jpg",
+        "../image/Audi_A4_3.jpg",
+        "../image/Audi_A4_4.jpg"
     ]
 },
 {
@@ -123,10 +123,10 @@
     "price": "63 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Ford_Mondeo_1.jpg",
-        "image/Ford_Mondeo_2.jpg",
-        "image/Ford_Mondeo_3.jpg",
-        "image/Ford_Mondeo_4.jpg"
+        "../image/Ford_Mondeo_1.jpg",
+        "../image/Ford_Mondeo_2.jpg",
+        "../image/Ford_Mondeo_3.jpg",
+        "../image/Ford_Mondeo_4.jpg"
     ]
 },
 {
@@ -137,7 +137,7 @@
     "km": "146 839 km",
     "price": "63 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/RAV_1.jpg", "image/RAV_2.jpg", "image/RAV_3.jpg", "image/RAV_4.jpg"]
+    "image": ["../image/RAV_1.jpg", "../image/RAV_2.jpg", "../image/RAV_3.jpg", "../image/RAV_4.jpg"]
 },
 {
     "id":"11",
@@ -148,10 +148,10 @@
     "price": "47 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Corolla_1.jpg",
-        "image/Corolla_2.jpg",
-        "image/Corolla_3.jpg",
-        "image/Corolla_4.jpg"
+        "../image/Corolla_1.jpg",
+        "../image/Corolla_2.jpg",
+        "../image/Corolla_3.jpg",
+        "../image/Corolla_4.jpg"
     ]
 },
 {
@@ -162,7 +162,7 @@
     "km": "99 295 km",
     "price": "39 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/Auris_1.jpg", "image/Auris_2.jpg", "image/Auris_3.jpg", "image/Auris_4.jpg"]
+    "image": ["../image/Auris_1.jpg", "../image/Auris_2.jpg", "../image/Auris_3.jpg", "../image/Auris_4.jpg"]
 },
 {
     "id":"13",
@@ -172,7 +172,7 @@
     "km": "148 711 km",
     "price": "47 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/Kia_1.jpg", "image/Kia_2.jpg", "image/Kia_3.jpg", "image/Kia_4.jpg"]
+    "image": ["../image/Kia_1.jpg", "../image/Kia_2.jpg", "../image/Kia_3.jpg", "../image/Kia_4.jpg"]
 },
 {
     "id":"14",
@@ -182,7 +182,7 @@
     "km": "100 711 km",
     "price": "51 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/KiaS_1.jpg", "image/KiaS_2.jpg", "image/KiaS_3.jpg", "image/KiaS_4.jpg"]
+    "image": ["../image/KiaS_1.jpg", "../image/KiaS_2.jpg", "../image/KiaS_3.jpg", "../image/KiaS_4.jpg"]
 },
 {
     "id":"15",
@@ -193,10 +193,10 @@
     "price": "66 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Audi_4_1.jpg",
-        "image/Audi_4_2.jpg",
-        "image/Audi_4_3.jpg",
-        "image/Audi_4_4.jpg"
+        "../image/Audi_4_1.jpg",
+        "../image/Audi_4_2.jpg",
+        "../image/Audi_4_3.jpg",
+        "../image/Audi_4_4.jpg"
     ]
 },
 {
@@ -208,10 +208,10 @@
     "price": "68 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Mondeo_1.jpg",
-        "image/Mondeo_2.jpg",
-        "image/Mondeo_3.jpg",
-        "image/Mondeo4_4.jpg"
+        "../image/Mondeo_1.jpg",
+        "../image/Mondeo_2.jpg",
+        "../image/Mondeo_3.jpg",
+        "../image/Mondeo4_4.jpg"
     ]
 },
 {
@@ -223,10 +223,10 @@
     "price": "54 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Mazda_6a_1.jpg",
-        "image/Mazda_6a_2.jpg",
-        "image/Mazda_6a_3.jpg",
-        "image/Mazda_6a_4.jpg"
+        "../image/Mazda_6a_1.jpg",
+        "../image/Mazda_6a_2.jpg",
+        "../image/Mazda_6a_3.jpg",
+        "../image/Mazda_6a_4.jpg"
     ]
 },
 {
@@ -238,10 +238,10 @@
     "price": "30 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Mazda_3_1.jpg",
-        "image/Mazda_3_2.jpg",
-        "image/Mazda_3_3.jpg",
-        "image/Mazda_3_4.jpg"
+        "../image/Mazda_3_1.jpg",
+        "../image/Mazda_3_2.jpg",
+        "../image/Mazda_3_3.jpg",
+        "../image/Mazda_3_4.jpg"
     ]
 },
 {
@@ -252,7 +252,7 @@
     "km": "267 043 km",
     "price": "51 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/Q5_1.jpg", "image/Q5_2.jpg", "image/Q5_3.jpg", "image/Q5_4.jpg"]
+    "image": ["../image/Q5_1.jpg", "../image/Q5_2.jpg", "../image/Q5_3.jpg", "../image/Q5_4.jpg"]
 },
 {
     "id":"20",
@@ -263,10 +263,10 @@
     "price": "75 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "image/Mazda_6_1.jpg",
-        "image/Mazda_6_2.jpg",
-        "image/Mazda_6_3.jpg",
-        "image/Mazda_6_4.jpg"
+        "../image/Mazda_6_1.jpg",
+        "../image/Mazda_6_2.jpg",
+        "../image/Mazda_6_3.jpg",
+        "../image/Mazda_6_4.jpg"
     ]
 },
 {
@@ -277,5 +277,5 @@
     "km": "130 555 km",
     "price": "62 000 PLN",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["image/Q5a_1.jpg", "image/Q5a_2.jpg", "image/Q5a_3.jpg", "image/Q5a_4.jpg"]
+    "image": ["../image/Q5a_1.jpg", "../image/Q5a_2.jpg", "../image/Q5a_3.jpg", "../image/Q5a_4.jpg"]
 }]}

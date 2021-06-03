@@ -34,14 +34,7 @@ h2 {
     font-family: $font_title;
     font-weight: 900;
  }
-.car-price{
-    @include button;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
- .car-price:hover{
-@include button-orange-white;
-    }
+
 
 .car-photo {
     @include img_car_list;
@@ -74,3 +67,21 @@ hr {
     height: 1px;
 }
 
+.tabCar{
+    display: block;
+    width: 350px;
+    height: 465px;
+    position: absolute;
+    z-index: 100;
+
+}
+a .car-price{
+    @include button;
+    @include link;
+    margin-bottom: 20px;
+    cursor: pointer;
+    z-index: 101;
+}
+a .car-price:hover{
+@include button-orange-white;
+    }

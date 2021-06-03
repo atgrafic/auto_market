@@ -8,7 +8,7 @@ export default class extends view {
 
     constructor(params) {
         super(params);
-        this.setTitle("Kup");
+        this.setTitle("Market Car | Kup");
     }
 
     async getHtml() {
@@ -23,13 +23,13 @@ function carTemplate(car) {
 
     return `
     <div class="car" id=${car.id}>
-    <a href="/kup/${car.id}" data-link>
+    <a class="tabCar" href="/kup/${car.id}" data-link></a>
     <img class="car-photo" src="${car.image[0]}">
     <h2 class="car-name">${car.name}</h2>
     <p class="car-year">${car.year}</p>
     <p class="car-km">${car.km}</p>
     <hr/>
-    <button class="car-price">${car.price}</button></a>
+    <a href="/kup/${car.id}" data-link class="car-price">${car.price}</a>
     </div>
     `;
 }
@@ -65,12 +65,13 @@ function filtr() {
     for (let i = 0; i < brandList.length; i++) {
         if (brandList[i].brand === search.value) {
             car += `<div class="car" id=${brandList[i].id} >
+            <a class="tabCar" href="/kup/${brandList[i].id}" data-link></a>
             <img class="car-photo" src="${brandList[i].image[0]}">
             <h2 class="car-name">${brandList[i].name}</h2>
             <p class="car-year">${brandList[i].year}</p>
             <p class="car-km">${brandList[i].km}</p>
             <hr/>
-            <button class="car-price">${brandList[i].price}</button>
+            <a href="/kup/${brandList[i].id}" data-link class="car-price">${brandList[i].price}</a>
 
             </div> `;
         }

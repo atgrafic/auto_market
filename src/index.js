@@ -9,6 +9,7 @@ import header from "./views/header.js";
 import car from "./views/marketCar.js";
 import buy from "./views/buy.js";
 import carList from "./views/carList.js";
+import formCar from "./views/form.js";
 
 import contact from "./views/contact";
 // import about from "./views/about";
@@ -34,11 +35,11 @@ const navigateTo = (url) => {
 };
 
 const router = async () => {
-    console.log("router: ")
     const routes = [
         { path: "/", view: car },
         { path: "/kup", view: buy },
         { path: "/kup/:id", view: carList },
+        { path: "/form", view: formCar },
         // { path: "/sprzedaj", view:sale},
         // { path: "/onas", view: about },
         { path: "/kontakt", view: contact },
