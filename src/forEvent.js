@@ -1,19 +1,38 @@
-function inputRadio() {
-    // alert("sfsdfsdf");
-    console.log("HERE");
-    if (document.getElementById("leasing") != null) {
-        console.log("HERE2");
+document.body.addEventListener("click", forEvent);
 
-        document.addEventListener("click", inputRadio)
+function forEvent() {
+    return inputForm() + checkboxForm();
+}
 
-        let leasing = document.getElementById("leasing");
-        let cash = document.getElementById("cash");
-        console.log("klik");
-        if (leasing == this.checked) {
+function inputForm() {
+    if (event.target.classList.contains("buyForm")) {
+        if (leasing.checked == true) {
             document.getElementById("pay").innerHTML = leasing.value;
         }
-        if (cash == this.checked) {
+        if (cash.checked == true) {
             document.getElementById("pay").innerHTML = cash.value;
         }
+        if (shop.checked == true) {
+            document.getElementById("reception").innerHTML = shop.value;
+            document.getElementById("carData").style.display = "none";
+        }
+        if (inHome.checked == true) {
+            document.getElementById("reception").innerHTML = inHome.value;
+            document.getElementById("carData").style.display = "block";
+        }
+    }
+}
+
+function checkboxForm() {
+    if (event.target.classList.contains("Check")) {
+        let price =  new Number(document.getElementById("price").innerHTML);
+
+        if (car1.checked == true) {
+            document.getElementById("sum").innerHTML = price + new Number(car1.value);
+        }
+        if (car1.checked == false) {
+            document.getElementById("sum").innerHTML = (price + new Number(car1.value)) - new Number(car1.value);
+        }
+       
     }
 }

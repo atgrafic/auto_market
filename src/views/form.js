@@ -20,10 +20,10 @@ function getForm() {
         if (formCarId === brandList[i].id) {
             return ` <img class="car-photo_1" src="${brandList[i].image[0]}">
                      <p>Wybrany samochód: ${brandList[i].name}</p>
-                     <p>Cena pojazgu: ${brandList[i].price}</p>
-                     <p>Łącznie zapłacisz: <span id="sum"></span></p>
+                     <p>Cena pojazgu: <span id="price">${brandList[i].priceNumber}</span> PLN</p>
+                     <p >Łączna wartość samochodu: <span id="sum"></span> PLN</p>
                      <p>Sposób płatności: <span id="pay"></span></p>
-                     <p>Sposób odbioru: <span id="reception"></span></p>
+                     <p>Sposób odbioru: <span id="reception"></span><span id="dayData"></span></p>
                      <div>
                      <a href="/" id="car-buy" data-link>kupję</a>
                      </div>
@@ -63,35 +63,35 @@ function formRadio() {
     <form>
     <p>Ekstra wyposażenie i dbałość o Twój pojazd </p>
     <div>
-    <input type="checkbox" id="Check"">
+    <input type="checkbox" class="Check" id="car1" value=1999>
     <label for="myCheck">Opony na zmiane</label>
-    <span> 1 999 zł</span>
+    <span> 1 999 PLN</span>
     </div>
     <div>
-    <input type="checkbox" id="Check"">
+    <input type="checkbox" class="Check" id="car2" value="699">
     <label for="myCheck">Digital Video Recorder</label>
-    <span> 699 zł</span>
+    <span> 699 PLN</span>
     </div>
     <div>
-    <input type="checkbox" id="Check"">
+    <input type="checkbox" class="Check" id="car3" value="1499">
     <label for="myCheck">Lokalizator GPS</label>
-    <span>  1 499 zł</span>
+    <span>  1 499 PLN</span>
     </div>
     <div>
-    <input type="checkbox" id="Check"">
+    <input type="checkbox" class="Check" id="car4" value="199">
     <label for="myCheck">Obowiązkowe wyposazenie</label>
-    <span>  199 zł</span>
+    <span>  199 PLN</span>
     </div>
     <div>
-    <input type="checkbox" id="Check"">
+    <input type="checkbox" class="Check" id="car5" value="40">
     <label for="myCheck">Dywank samchodowy</label>
-    <span>  40 zł</span>
+    <span>  40 PLN</span>
     </div>
     <div>
-    <input type="checkbox" id="Check"">
+    <input type="checkbox" class="Check" id="car6" value="698">
     <label for="myCheck">Kosmetyki samochodowe Professional
     </label>
-    <span>  698 zł</span>
+    <span>  698 PLN</span>
     </div>
     </form>
     <form >
@@ -121,25 +121,3 @@ function backForm() {
 
 
 
-// //  document.addEventListener("click", inputRadio)
-
-// function inputRadio() {
-//     let leasing = document.getElementById("leasing");
-//     let cash = document.getElementById("cash");
-//     console.log("klik");
-//     if (leasing == this.checked) {
-//         document.getElementById("pay").innerHTML = leasing.value;
-//     }
-//     if (cash == this.checked) {
-//         document.getElementById("pay").innerHTML = cash.value;
-//     }
-// }
-    // let cash = document.forms[0];
-    // let textCash = "";
-    // for (let i = 0; i < cash.length; i++) {
-    //   if (cash[i].checked) {
-    //     txt = txt + cash[i].value + " ";
-    //   }
-    // }
-    // document.getElementById("pay").value = txt;
-// }

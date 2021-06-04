@@ -79,11 +79,6 @@ function filtr() {
 
     document.getElementById("carsList").innerHTML = car;
 
-    // for (let i = 0; i < carName.length; i++) {
-    //     let id = carName[i].id;
-    //     //console.log("ID:", id);
-    //     carName[i].addEventListener("click", (e) => nextPage(e, id));
-    // }
 }
 
-// document.addEventListener("change", filtr);
+document.addEventListener("change", filtr);

@@ -48,7 +48,6 @@ const router = async () => {
         // { path: "/index", view: car},
     ];
 
-    // Test each route for potential match
     const potentialMatches = routes.map((route) => {
         return {
             route: route,
@@ -67,8 +66,9 @@ const router = async () => {
     }
 
     const view = new match.route.view(getParams(match));
-    
+
     document.querySelector("#app").innerHTML = await view.getHtml();
+
 };
 
 window.addEventListener("popstate", router);
@@ -82,42 +82,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     router();
 });
-
-document.body.addEventListener("click", inputRadio);
-
-function inputRadio() {
-    if (event.target.classList.contains("buyForm")) {
-        console.log("in 1 if");
-        if (leasing.checked == true) {
-            document.getElementById("pay").innerHTML = leasing.value;
-        }
-        if (cash.checked == true) {
-            document.getElementById("pay").innerHTML = cash.value;
-        }
-        if (shop.checked == true) {
-            document.getElementById("reception").innerHTML = shop.value;
-        }
-        if (inHome.checked == true) {
-            document.getElementById("reception").innerHTML = inHome.value;
-        }
-    }
-    // let element = event.target;
-    // console.log(element.classList.contains("leasing"));
-    // if (element.target.values.contains("leasing")) {
-    //     if (document.getElementById("leasing") != null) {
-    //         console.log("HERE2");
-
-    //         document.addEventListener("click", inputRadio);
-
-    //         let leasing = document.getElementById("leasing");
-    //         let cash = document.getElementById("cash");
-    //         console.log("klik");
-    //         if (leasing == this.checked) {
-    //             document.getElementById("pay").innerHTML = leasing.value;
-    //         }
-    //         if (cash == this.checked) {
-    //             document.getElementById("pay").innerHTML = cash.value;
-    //         }
-    //     }
-    // }
-}

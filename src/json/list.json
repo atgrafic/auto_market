@@ -6,6 +6,7 @@
     "year": 2012,
     "km": "286 000 km",
     "price": "84 999 PLN",
+    "priceNumber": 84999,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/BMW_X5_D_1.jpg",
@@ -21,6 +22,7 @@
     "year": 2016,
     "km": "49 000 km",
     "price": "84 999 PLN",
+    "priceNumber": 84999,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Ford_ Edge_1.jpg",
@@ -36,6 +38,7 @@
     "year": 2016,
     "km": "30 050 km",
     "price": "102 000 PLN",
+    "priceNumber": 102000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/BMW X1_1.jpg",
@@ -51,6 +54,7 @@
     "year": 2020,
     "km": "8 km",
     "price": "125 352 PLN",
+    "priceNumber": 125352,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Kia Sportage_1.jpg",
@@ -66,6 +70,7 @@
     "year": 2016,
     "km": "73 801 km",
     "price": "85 000 PLN",
+    "priceNumber": 85000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Mazda_CX_5_1.jpg",
@@ -81,6 +86,7 @@
     "year": 2016,
     "km": "115 301 km",
     "price": "96 000 PLN",
+    "priceNumber": 96000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/BMW_5_1.jpg", "../image/BMW_5_2.jpg", "../image/BMW_5_3.jpg", "../image/BMW_5_4.jpg"]
 },
@@ -91,6 +97,7 @@
     "year": 2015,
     "km": "81 529 km",
     "price": "70 000 PLN",
+    "priceNumber": 70000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Mazda_6_1.jpg",
@@ -106,6 +113,7 @@
     "year": 2015,
     "km": "81 830 km",
     "price": "66 000 PLN",
+    "priceNumber": 66000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Audi_A4_1.jpg",
@@ -121,6 +129,7 @@
     "year": 2016,
     "km": "55 970 km",
     "price": "63 000 PLN",
+    "priceNumber": 63000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Ford_Mondeo_1.jpg",
@@ -136,6 +145,7 @@
     "year": 2013,
     "km": "146 839 km",
     "price": "63 000 PLN",
+    "priceNumber": 63000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/RAV_1.jpg", "../image/RAV_2.jpg", "../image/RAV_3.jpg", "../image/RAV_4.jpg"]
 },
@@ -146,6 +156,7 @@
     "year": 2016,
     "km": "125 295 km",
     "price": "47 000 PLN",
+    "priceNumber": 47000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Corolla_1.jpg",
@@ -161,6 +172,7 @@
     "year": 2015,
     "km": "99 295 km",
     "price": "39 000 PLN",
+    "priceNumber": 39000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/Auris_1.jpg", "../image/Auris_2.jpg", "../image/Auris_3.jpg", "../image/Auris_4.jpg"]
 },
@@ -171,6 +183,7 @@
     "year": 2012,
     "km": "148 711 km",
     "price": "47 000 PLN",
+    "priceNumber": 47000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/Kia_1.jpg", "../image/Kia_2.jpg", "../image/Kia_3.jpg", "../image/Kia_4.jpg"]
 },
@@ -181,6 +194,7 @@
     "year": 2014,
     "km": "100 711 km",
     "price": "51 000 PLN",
+    "priceNumber": 51000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/KiaS_1.jpg", "../image/KiaS_2.jpg", "../image/KiaS_3.jpg", "../image/KiaS_4.jpg"]
 },
@@ -191,6 +205,7 @@
     "year": 2012,
     "km": "159 830 km",
     "price": "66 000 PLN",
+    "priceNumber": 66000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Audi_4_1.jpg",
@@ -206,6 +221,7 @@
     "year": 2018,
     "km": "47 970 km",
     "price": "68 000 PLN",
+    "priceNumber": 68000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Mondeo_1.jpg",
@@ -221,6 +237,7 @@
     "year": 2014,
     "km": "105 529 km",
     "price": "54 000 PLN",
+    "priceNumber": 54000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Mazda_6a_1.jpg",
@@ -236,6 +253,7 @@
     "year": 2013,
     "km": "47 529 km",
     "price": "30 000 PLN",
+    "priceNumber": 30000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Mazda_3_1.jpg",
@@ -251,6 +269,7 @@
     "year": 2012,
     "km": "267 043 km",
     "price": "51 000 PLN",
+    "priceNumber": 51000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/Q5_1.jpg", "../image/Q5_2.jpg", "../image/Q5_3.jpg", "../image/Q5_4.jpg"]
 },
@@ -261,6 +280,7 @@
     "year": 2017,
     "km": "44 529 km",
     "price": "75 000 PLN",
+    "priceNumber": 75000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "../image/Mazda_6_1.jpg",
@@ -276,6 +296,7 @@
     "year": 2011,
     "km": "130 555 km",
     "price": "62 000 PLN",
+    "priceNumber": 62000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": ["../image/Q5a_1.jpg", "../image/Q5a_2.jpg", "../image/Q5a_3.jpg", "../image/Q5a_4.jpg"]
 }]}
