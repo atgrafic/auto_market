@@ -86,4 +86,4 @@ function filtr() {
     // }
 }
 
-document.addEventListener("change", filtr);
+// document.addEventListener("change", filtr);
