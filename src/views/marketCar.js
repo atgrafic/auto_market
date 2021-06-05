@@ -14,9 +14,14 @@ export default class extends view {
     }
 
     async getHtml() {
-        return `główna strona`
-
-        ;
+        return `  <div>
+        <h2>Dlaczego warto kupować u nas samochód online?</h2>
+        <ul>
+        <li>14 dni na zwrot auta</li>
+        <li>Gwarancja dożywotniego pochodzenia</li>
+        <li>Auto z sprwdzoną historią serwisową</li>
+        </ul>
+        </div>`;
     }
 }
 

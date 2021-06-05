@@ -1,3 +1,9 @@
-#carData{
+.invalid{
+    border: 1px solid red;
+}
+.error-hint{
+    color:red;
+}
+.hidden{
     display: none;
 }
