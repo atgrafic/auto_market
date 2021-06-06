@@ -38,13 +38,15 @@ function formRadio() {
     <label>Na raty</label>
     <input type="radio" name="radio" class="buyForm" id="cash" value="Gotówka"/>
     <label>Za gotówkę</label>
+    <div id="pagyChackedError" class="error-hint hidden">To pole jest obowiąskowe</div>
     </form>
     <form >
     <p> Gdzie ma nastąpić przekazanie pojazdu?</p>
-    <input type="radio" name="radio" class="buyForm" id="shop" value="Odbiór w salonie Market Car" />
+    <input type="radio" name="shopCar" class="buyForm" id="shop" value="Odbiór w salonie Market Car" />
     <label>Samochód odbiorę w Salonie Market Car</label>
-    <input type="radio" name="radio" class="buyForm" id="inHome" value="Samochód zostanie dostarczony do Ciebie w dniu " />
+    <input type="radio" name="shopCar" class="buyForm" id="inHome" value="Samochód zostanie dostarczony do Ciebie w dniu " />
     <label>Chcę, żeby samochód dostarczono do domu</label>
+    <div id="shopCarError" class="error-hint hidden">To pole jest obowiąskowe</div>
     </form>
     <form>
     <p>Ekstra wyposażenie i dbałość o Twój pojazd </p>

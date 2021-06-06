@@ -11,6 +11,7 @@ import car from "./views/marketCar.js";
 import buy from "./views/buy.js";
 import carList from "./views/carList.js";
 import formCar from "./views/form.js";
+import carNew from "./views/newCar.js";
 
 import forEvent from "./forEvent.js";
 import contact from "./views/contact.js";
@@ -42,6 +43,7 @@ const router = async () => {
         { path: "/kup", view: buy },
         { path: "/kup/:id", view: carList },
         { path: "/form", view: formCar },
+        { path: "/newCar", view: carNew },
         // { path: "/sprzedaj", view:sale},
         // { path: "/onas", view: about },
         { path: "/kontakt", view: contact },

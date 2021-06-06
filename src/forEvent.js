@@ -60,6 +60,8 @@ function formValidate(e) {
     const phoneInput = document.querySelector("input[name='phone']");
     const street = document.querySelector("input[name='street']");
     const cityInput = document.querySelector("input[name='city']");
+    const paychecked = document.getElementsByName("radio");
+    const shopCar = document.getElementsByName("shopCar");
 
     const inputFields = [nameInput, emailInput, phoneInput, street, cityInput];
 
@@ -67,8 +69,39 @@ function formValidate(e) {
     emailInput.isValid = () => isValidEmail(emailInput.value);
     phoneInput.isValid = () => isValidPhone(phoneInput.value);
     street.isValid = () => !!street.value;
-    cityInput.isValid = () => !!cityInput.value
+    cityInput.isValid = () => !!cityInput.value;
 
+    function validateShopCar() {
+        let formValid = false;
+
+        for (let i = 0; i < shopCar.length; i++) {
+            if (shopCar[i].checked) formValid = true;
+        }
+        if (!formValid) {
+            document.getElementById("shopCarError").classList.remove("hidden");
+            e.preventDefault();
+        }
+        if (formValid) {
+            document.getElementById("shopCarError").classList.add("hidden");
+
+        }
+    }
+
+    function validatePayChecked() {
+        let formValid = false;
+
+        for (let i = 0; i < paychecked.length; i++) {
+            if (paychecked[i].checked) formValid = true;
+        }
+        if (!formValid) {
+            document.getElementById("pagyChackedError").classList.remove("hidden");
+            e.preventDefault();
+        }
+        if (formValid) {
+            document.getElementById("pagyChackedError").classList.add("hidden");
+            
+        }
+    }
     inputFields.forEach((input) => {
         input.classList.remove("invalid");
         input.nextElementSibling.classList.add("hidden");
@@ -87,7 +120,8 @@ function formValidate(e) {
         const re = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{3})/;
         return re.test(String(phone).toLowerCase());
     }
-
+    validateShopCar();
+    validatePayChecked();
     inputFields.forEach((input) => {
         if (!input.isValid()) {
             input.nextElementSibling.classList.remove("hidden");
