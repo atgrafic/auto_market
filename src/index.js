@@ -58,7 +58,6 @@ const router = async () => {
     let match = potentialMatches.find((potentialMatch) => potentialMatch.result !== null);
 
     if (!match) {
-        console.log("routes[0]: ", routes[0]);
         match = {
             route: routes[0],
             result: [location.pathname],
@@ -68,7 +67,7 @@ const router = async () => {
     const view = new match.route.view(getParams(match));
 
     document.querySelector("#app").innerHTML = await view.getHtml();
-
+    styleAll();
 };
 
 window.addEventListener("popstate", router);
@@ -82,3 +81,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     router();
 });
+
+function styleAll() {
+    let stylePrices = document.getElementsByClassName("styledCurrency");
+
+    if (stylePrices.length > 0) {
+        for (let i = 0; i < stylePrices.length; i++) {
+            let price = new Number(document.getElementsByClassName("styledCurrency")[i].innerHTML);
+
+            let stylePrice = new Intl.NumberFormat("pl-PL").format(price);
+
+            document.getElementsByClassName("styledCurrency")[i].innerHTML = stylePrice;
+        }
+    }
+}
+
+

@@ -3,7 +3,21 @@ const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-// const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+
+// the path(s) that should be cleaned
+let pathsToClean = [
+    path.resolve(__dirname, "dist"),  // same as output path
+]
+
+// the clean options to use
+let cleanOptions = {
+    root: __dirname,
+    exclude:  [],  // add files you wanna exclude here
+    verbose:  true,
+    dry:      false
+}
+
 
 module.exports = {
     entry: { index: "./src/index.js" },
@@ -20,6 +34,7 @@ module.exports = {
         historyApiFallback: { index: "index.html" },
     },
     plugins: [
+        new CleanWebpackPlugin({pathsToClean, cleanOptions}),
         new HtmlWebpackPlugin({
             template: "./src/index.html",
         }),

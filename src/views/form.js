@@ -1,3 +1,4 @@
+import form from "../css/form.scss";
 import view from "./view.js";
 
 const json = require("../json/list.json");
@@ -10,7 +11,7 @@ export default class extends view {
     }
 
     async getHtml() {
-        return getForm() + formRadio() + backForm();
+        return getForm() + formRadio() +backForm();
     }
 }
 
@@ -20,12 +21,11 @@ function getForm() {
         if (formCarId === brandList[i].id) {
             return ` <img class="car-photo_1" src="${brandList[i].image[0]}">
                      <p>Wybrany samochód: ${brandList[i].name}</p>
-                     <p>Cena samochodu: <span id="price">${brandList[i].priceNumber}</span> PLN</p>
-                     <p >Łączna wartość samochodu: <span id="sum">${brandList[i].priceNumber}</span> PLN</p>
+                     <p>Cena samochodu: <span class="styledCurrency" id="price">${brandList[i].priceNumber}</span> PLN</p>
+                     <p >Łączna wartość samochodu: <span class="styledCurrency" id="sum">${brandList[i].priceNumber}</span> PLN</p>
                      <p>Sposób płatności: <span id="pay"></span></p>
                      <p>Sposób odbioru: <span id="reception"></span></p>
                      <div>
-                     <a href="/" id="car-buy" data-link>kupję</a>
                      </div>`;
         }
     }
@@ -80,18 +80,25 @@ function formRadio() {
     <span>  698 PLN</span>
     </div>
     </form>
-    <form >
+    <form class="finaleBuy">
     <p>Dane kontaktowe</p>
     <label>Imię i Nazwisko</label>
-    <input type="text" name="name"  placeholder="Imie i nazwisko"/>
+    <input type="text" name="name" class="contact" id="name" placeholder="Imie i nazwisko"/>
     <div class="error-hint hidden">Twoje imie i nazwisko jest obowiąskowe</div>
+    <label>Email</label>
+    <input type="text" name="email"  class="contact" placeholder="Adres email"  />
+    <div class="error-hint hidden">Twój email jest nie prawidłowy</div>
     <label>Numer telefonu</label>
-    <input type="text" name="phone" id="phoneForm" />
+    <input type="text" name="phone"  class="contact" placeholder="Numer telefonu"/>
+    <div class="error-hint hidden">Twój telefon jest nie prawidłowy</div>
     <p>Adres dostawy pojazdu</p>
     <label>Ulica</label>
-    <input type="text" name="street"id="street" />
+    <input type="text" name="street"  class="contact" placeholder="Adres"/>
+    <div class="error-hint hidden">Wprowadź poprawny adres</div>
     <label>Miasto</label>
-    <input type="text" name="city"id="city" />
+    <input type="text" name="city"  class="contact" placeholder="Miasto"/>
+    <div class="error-hint hidden">To pole jest obowiąskowe</div>
+    <button  type="submit" >kupuję</button>
     </form>`;
 }
 

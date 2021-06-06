@@ -1,7 +1,9 @@
+import form from "./css/form.scss";
+
 document.body.addEventListener("click", forEvent);
 
 function forEvent() {
-    return inputForm() + totalIt();
+    return inputForm() + totalIt() + submitTry();
 }
 
 function inputForm() {
@@ -17,17 +19,22 @@ function inputForm() {
         }
         if (inHome.checked == true) {
             let today = new Date();
-                let dd = String(today.getDate()).padStart(2, "0");
-                let mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
-                let yyyy = today.getFullYear();
+            let MyDateString;
 
+            if (today.getDay() == 0) {
+                today.setDate(today.getDate() + 15);
+            } else {
+                today.setDate(today.getDate() + 14);
+            }
 
+            MyDateString =
+                ("0" + today.getDate()).slice(-2) +
+                "." +
+                ("0" + (today.getMonth() + 1)).slice(-2) +
+                "." +
+                today.getFullYear();
 
-            //    let today  = new Date();
-                let todayAdd = today.setDate(today.getDate()+14);
-                todayAdd = dd + "." + mm + "." + yyyy;
-
-            document.getElementById("reception").innerHTML = inHome.value +todayAdd;
+            document.getElementById("reception").innerHTML = inHome.value + MyDateString;
         }
     }
 }
@@ -35,68 +42,66 @@ function inputForm() {
 function totalIt() {
     if (event.target.classList.contains("Check")) {
         let input = document.getElementsByName("product");
-        let total = new Number(document.getElementById("price").innerHTML);
+        let total = new Number(document.getElementById("price").innerHTML.replace(/\&nbsp;/g, ""));
         for (let i = 0; i < input.length; i++) {
             if (input[i].checked == true) {
                 total += parseFloat(input[i].value);
             }
         }
-        document.getElementById("sum").innerHTML = total;
+
+        document.getElementById("sum").innerHTML = new Intl.NumberFormat("pl-PL").format(total);
     }
 }
-////
 
-    const form = document.querySelector("car-buy");
+function formValidate(e) {
+    // const formSubmit = document.getElementById("finaleBuy");
     const nameInput = document.querySelector("input[name='name']");
-    // const emailInput = document.querySelector("input[name='email']");
-    // const phoneInput = document.querySelector("input[name='phone']");
-    // const messageInput = document.querySelector("textarea[name='message']");
+    const emailInput = document.querySelector("input[name='email']");
+    const phoneInput = document.querySelector("input[name='phone']");
+    const street = document.querySelector("input[name='street']");
+    const cityInput = document.querySelector("input[name='city']");
 
-    // nameInput.isValid = () => !!nameInput.value;
-    // emailInput.isValid = () => isValidEmail(emailInput.value);
-    // phoneInput.isValid = () => isValidPhone(phoneInput.value);
-    // messageInput.isValid = () => !!messageInput.value;
+    const inputFields = [nameInput, emailInput, phoneInput, street, cityInput];
 
-    // const inputFields = [nameInput, emailInput, phoneInput, messageInput];
+    nameInput.isValid = () => isValidName(nameInput.value);
+    emailInput.isValid = () => isValidEmail(emailInput.value);
+    phoneInput.isValid = () => isValidPhone(phoneInput.value);
+    street.isValid = () => !!street.value;
+    cityInput.isValid = () => !!cityInput.value
 
-    // const isValidEmail = (email) => {
-    //   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    //   return re.test(String(email).toLowerCase());
-    // };
-
-    // const isValidPhone = (phone) => {
-    //   const re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
-    //   return re.test(String(phone).toLowerCase());
-    // };
-
-    // let shouldValidate = false;
-    // let isFormValid = false;
-
-    // const validateInputs = () => {
-    //   console.log("we are here");
-    //   if (!shouldValidate) return;
-
-    //   isFormValid = true;
-    //   inputFields.forEach((input) => {
-    //     input.classList.remove("invalid");
-    //     input.nextElementSibling.classList.add("hide");
-
-    //     if (!input.isValid()) {
-    //       input.classList.add("invalid");
-    //       isFormValid = false;
-    //       input.nextElementSibling.classList.remove("hide");
-    //     }
-    //   });
-    // };
-
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      shouldValidate = true;
-      validateInputs();
-      if (isFormValid) {
-
-      }
+    inputFields.forEach((input) => {
+        input.classList.remove("invalid");
+        input.nextElementSibling.classList.add("hidden");
     });
 
-    // inputFields.forEach((input) => input.addEventListener("input", validateInputs));
+    function isValidName(name) {
+        return !name == "" && name.indexOf(" ") > -1 && name.slice(-1) != " ";
+    }
 
+    function isValidEmail(email) {
+        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
+
+    function isValidPhone(phone) {
+        const re = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{3})/;
+        return re.test(String(phone).toLowerCase());
+    }
+
+    inputFields.forEach((input) => {
+        if (!input.isValid()) {
+            input.nextElementSibling.classList.remove("hidden");
+            input.classList.add("invalid");
+            e.preventDefault();
+        }
+    });
+}
+
+function submitTry() {
+    let finaleBuy = document.getElementsByClassName("finaleBuy");
+    if (finaleBuy.length > 0) {
+        finaleBuy[0].addEventListener("submit", (e) => {
+            formValidate(e);
+        });
+    }
+}
