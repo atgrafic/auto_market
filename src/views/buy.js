@@ -5,22 +5,27 @@ const json = require("../json/list.json");
 const brandList = json.carsData;
 
 export default class extends view {
-
     constructor(params) {
         super(params);
-        this.setTitle("Market Car | Kup");
+        this.setTitle("Market Car");
     }
 
     async getHtml() {
-    return  searchForm() +
-    "<div id='carsList'>" +
-    json.carsData.map(carTemplate).join("") +
-    "</div>";
-}
-
+        return (
+            `<div class="baner">
+    <div class="slogan">
+    <h2>Znajdź swój wymarzony<br/>samochód!</h2>
+    <p>Wybierz Auto z pośród najlepszych!</p>
+    </div>
+    </div>` +
+            searchForm() +
+            "<div id='carsList'>" +
+            json.carsData.map(carTemplate).join("") +
+            "</div>"
+        );
+    }
 }
 function carTemplate(car) {
-
     return `
     <div class="car" id=${car.id}>
     <a class="tabCar" href="/kup/${car.id}" data-link></a>
@@ -78,7 +83,6 @@ function filtr() {
     }
 
     document.getElementById("carsList").innerHTML = car;
-
 }
 
 document.addEventListener("change", filtr);

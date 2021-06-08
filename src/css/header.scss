@@ -5,6 +5,7 @@
 nav {
     background: $color_white;
     box-shadow: 0px 5px 15px $color_third;
+    opacity: 95%;
 }
 .topNavMargin {
     max-width: $width;
@@ -22,11 +23,6 @@ nav {
     height: 72px;
    background: url('../assets/image/logo_black.svg') center no-repeat;
 }
-.logoWhite{
-    background: url('../assets/image/logo_white.svg') center no-repeat;
-}
-
-
 
 .nav_item {
     @include font_description;
@@ -55,7 +51,10 @@ a.icon {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+   nav {
+              opacity: 100%;
+    }
 
     .topNavMargin{
         display: block;

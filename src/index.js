@@ -5,18 +5,20 @@ import style from "./css/index.scss";
 import header_style from "./css/header.scss";
 import footer from "./css/footer.scss";
 import form from "./css/form.scss";
+import focarListrm from "./css/carList.scss";
+import newCar from "./css/newCar.scss";
 
 import header from "./views/header.js";
-import car from "./views/marketCar.js";
+// import car from "./views/marketCar.js";
 import buy from "./views/buy.js";
 import carList from "./views/carList.js";
 import formCar from "./views/form.js";
 import carNew from "./views/newCar.js";
 
 import forEvent from "./forEvent.js";
-import contact from "./views/contact.js";
-// import about from "./views/about";
-// import sale from "./views/sale";
+// import contact from "./views/contact.js";
+// import about from "./views/about.js";
+// import sale from "./views/sale.js";
 
 const pathToRegex = (path) =>
     new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
@@ -39,15 +41,15 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        { path: "/", view: car },
+        // { path: "/", view: car },
         { path: "/kup", view: buy },
         { path: "/kup/:id", view: carList },
         { path: "/form", view: formCar },
         { path: "/newCar", view: carNew },
-        // { path: "/sprzedaj", view:sale},
+        // { path: "/kontakt", view: contact },
+        //  { path: "/sprzedaj", view:sale},
         // { path: "/onas", view: about },
-        { path: "/kontakt", view: contact },
-        // { path: "/index", view: car},
+
     ];
 
     const potentialMatches = routes.map((route) => {

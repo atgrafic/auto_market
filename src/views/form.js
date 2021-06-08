@@ -100,7 +100,8 @@ function formRadio() {
     <label>Miasto</label>
     <input type="text" name="city"  class="contact" placeholder="Miasto"/>
     <div class="error-hint hidden">To pole jest obowiąskowe</div>
-    <button  type="submit" >kupuję</button>
+    <button type="submit">kupuję</button>
+    <a href="/newCar" class="hidden" id="confirm" data-link>Potwierdzam zakup samochodu</a>
     </form>`;
 }
 

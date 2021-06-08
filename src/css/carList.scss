@@ -1,0 +1,123 @@
+@import "index.scss";
+.listCar {
+    width: 70%;
+    margin: 0 auto;
+}
+// .listCarTop{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+.car-name-chosse {
+    @include font_H2_span;
+    font-family: $font_title;
+    margin: 50px 0;
+}
+
+.car-photo_1 {
+    width: 50vw;
+    height: auto;
+    margin-right: 30px;
+}
+.all_car_photo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sumPhoto {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+
+    img {
+        width: 15vw;
+        height: auto;
+        margin-right: 30px;
+    }
+}
+.description {
+    @include font_H2_span;
+    font-family: $font_title;
+    font-weight: 500;
+    margin: 50px 0 20px 0;
+    width: 70%;
+}
+.ditels {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.car-price-1 {
+    @include button-orange-white;
+    margin-bottom: 20px;
+}
+.car-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.ditels div p:last-child {
+    font-size: 1.5em;
+    color: $color_secend;
+}
+#car-buy {
+    @include button;
+    @include link;
+    color: $color_secend;
+    text-align: center;
+    text-decoration: none;
+}
+#car-buy:hover {
+    @include button-orange-white;
+}
+.back {
+    @include font_description;
+    text-decoration: none;
+    margin: 50px 0 20px 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .sumPhoto {
+        justify-content: flex-start;
+        margin-top: 0;
+        flex-direction: column;
+
+        img {
+            width: 15vw;
+            height: auto;
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+    }
+    .all_car_photo {
+        flex-direction: column;
+    }
+    .car-details {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #content {
+        display: flex;
+        justify-content: space-between;
+    }
+    #car-buy {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sumPhoto {
+        display: none;
+    }
+    .back {
+       position: relative;
+       top: -20px;
+    }
+    .car-photo_1 {
+        width: 70vw;
+       }
+       #content {
+        display: block;
+
+    }
+}

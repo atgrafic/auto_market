@@ -16,6 +16,7 @@ function inputForm() {
         }
         if (shop.checked == true) {
             document.getElementById("reception").innerHTML = shop.value;
+            localStorage.setItem("date", shop.value)
         }
         if (inHome.checked == true) {
             let today = new Date();
@@ -35,6 +36,7 @@ function inputForm() {
                 today.getFullYear();
 
             document.getElementById("reception").innerHTML = inHome.value + MyDateString;
+            localStorage.setItem("date", inHome.value + MyDateString)
         }
     }
 }
@@ -83,8 +85,9 @@ function formValidate(e) {
         }
         if (formValid) {
             document.getElementById("shopCarError").classList.add("hidden");
-
         }
+
+        return formValid;
     }
 
     function validatePayChecked() {
@@ -99,8 +102,8 @@ function formValidate(e) {
         }
         if (formValid) {
             document.getElementById("pagyChackedError").classList.add("hidden");
-            
         }
+        return formValid;
     }
     inputFields.forEach((input) => {
         input.classList.remove("invalid");
@@ -127,6 +130,10 @@ function formValidate(e) {
             input.nextElementSibling.classList.remove("hidden");
             input.classList.add("invalid");
             e.preventDefault();
+        } else {
+            if (validateShopCar() && validatePayChecked()) {
+                document.getElementById("confirm").classList.remove("hidden");
+            };
         }
     });
 }
@@ -135,7 +142,9 @@ function submitTry() {
     let finaleBuy = document.getElementsByClassName("finaleBuy");
     if (finaleBuy.length > 0) {
         finaleBuy[0].addEventListener("submit", (e) => {
-            formValidate(e);
+            e.preventDefault();
+            // formValidate(e);
+            document.getElementById("confirm").classList.remove("hidden");
         });
     }
 }

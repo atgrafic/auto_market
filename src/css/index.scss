@@ -57,7 +57,7 @@ $width:1200px;
 }
 @mixin input {
     color: $color_descripttion;
-    width: 400px;
+    width: 30vw;
     height: 40px;
     text-align: center;
     margin: 30px auto;
@@ -84,5 +84,14 @@ $width:1200px;
 
 body {
     margin: 0 auto;
-    //max-width: 1200px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;;
+
 }
+.listCar {
+    width: 70%;
+    margin: 0 auto;
+}
+
+

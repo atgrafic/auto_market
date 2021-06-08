@@ -9,7 +9,8 @@ export default class extends view {
 
     async getHtml() {
     return `
-   <h2>kontakt</h2>
+    <h2>Strona w budowie</h2>
+    <p>Zajrzyj do nas później</p>
     `;
 }
 
