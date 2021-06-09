@@ -1,14 +1,76 @@
+@import "index.scss";
+@import "carList.scss";
+@import "car.scss";
+
+
 .invalid{
-    border: 1px solid red;
+    border: 1px solid $color_secend;
 }
 .error-hint{
-    color:red;
+    color:$color_secend;
+    padding-bottom: 10px;
 }
 .hidden{
     display: none;
 }
-// .stylA{
-//     height: 24px;
-//     width: 64px;
-//     z-index: 100;
+
+// .stylrForm{
+//     width: 70%;
+//     margin: 50px auto 0 auto;
+
+//     display: flex;
+//     justify-content: space-evenly;
+//     flex-direction: row-reverse;
+
+// }
+
+// .carForm{
+// text-align: center;
+// border: $border_main;
+// width: 350px;
+// height: 650px;
+// display: inline-block;
+// }
+// .price {
+//     @include button;
+//     @include link;
+//     color: $color_secend;
+//     margin: 10px auto;
+//     cursor: pointer;
+
+// }
+// .price:hover {
+//     @include button-orange-white;
+// }
+
+
+// .lastSum, .chooseCar {
+//     color: $color_secend;
+//     font-family: $font_title;
+//     font-size: 2em;
+// }
+// .chooseCar{
+//     margin-top: 15px;
+// }
+// // input[type="radio" i],input[type="checkbox" i] {
+// //     background-color: $color_secend;
+// // }
+// .leftSite{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+// }
+// form{
+//     display: flex;
+//     flex-direction: column;
+
+// }
+// form p{
+//     font-size: 1.2em;
+//     font-weight: 700;
+//     margin-top: 15px;
+//     margin-bottom: 5px;
+// }
+// .contact, .Check, .buyForm{
+// margin: 5px 0;
 // }

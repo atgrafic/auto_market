@@ -16,7 +16,7 @@ function inputForm() {
         }
         if (shop.checked == true) {
             document.getElementById("reception").innerHTML = shop.value;
-            localStorage.setItem("date", shop.value)
+            localStorage.setItem("date", shop.value);
         }
         if (inHome.checked == true) {
             let today = new Date();
@@ -36,7 +36,7 @@ function inputForm() {
                 today.getFullYear();
 
             document.getElementById("reception").innerHTML = inHome.value + MyDateString;
-            localStorage.setItem("date", inHome.value + MyDateString)
+            localStorage.setItem("date", inHome.value + MyDateString);
         }
     }
 }
@@ -56,22 +56,21 @@ function totalIt() {
 }
 
 function formValidate(e) {
-    // const formSubmit = document.getElementById("finaleBuy");
-    const nameInput = document.querySelector("input[name='name']");
-    const emailInput = document.querySelector("input[name='email']");
-    const phoneInput = document.querySelector("input[name='phone']");
-    const street = document.querySelector("input[name='street']");
-    const cityInput = document.querySelector("input[name='city']");
+    const nameInput = { path: document.querySelector("input[name='name']"), status: false };
+    const emailInput = { path: document.querySelector("input[name='email']"), status: false };
+    const phoneInput = { path: document.querySelector("input[name='phone']"), status: false };
+    const street = { path: document.querySelector("input[name='street']"), status: false };
+    const cityInput = { path: document.querySelector("input[name='city']"), status: false };
     const paychecked = document.getElementsByName("radio");
     const shopCar = document.getElementsByName("shopCar");
 
     const inputFields = [nameInput, emailInput, phoneInput, street, cityInput];
 
-    nameInput.isValid = () => isValidName(nameInput.value);
-    emailInput.isValid = () => isValidEmail(emailInput.value);
-    phoneInput.isValid = () => isValidPhone(phoneInput.value);
-    street.isValid = () => !!street.value;
-    cityInput.isValid = () => !!cityInput.value;
+    nameInput.path.isValid = () => isValidName(nameInput.path.value);
+    emailInput.path.isValid = () => isValidEmail(emailInput.path.value);
+    phoneInput.path.isValid = () => isValidPhone(phoneInput.path.value);
+    street.path.isValid = () => !!street.path.value;
+    cityInput.path.isValid = () => !!cityInput.path.value;
 
     function validateShopCar() {
         let formValid = false;
@@ -105,10 +104,6 @@ function formValidate(e) {
         }
         return formValid;
     }
-    inputFields.forEach((input) => {
-        input.classList.remove("invalid");
-        input.nextElementSibling.classList.add("hidden");
-    });
 
     function isValidName(name) {
         return !name == "" && name.indexOf(" ") > -1 && name.slice(-1) != " ";
@@ -123,19 +118,30 @@ function formValidate(e) {
         const re = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{3})/;
         return re.test(String(phone).toLowerCase());
     }
-    validateShopCar();
-    validatePayChecked();
+
     inputFields.forEach((input) => {
-        if (!input.isValid()) {
-            input.nextElementSibling.classList.remove("hidden");
-            input.classList.add("invalid");
+        if (!input.path.isValid()) {
+            input.path.nextElementSibling.classList.remove("hidden");
+            input.path.classList.add("invalid");
+            document.getElementById("confirm").classList.add("hidden");
             e.preventDefault();
         } else {
-            if (validateShopCar() && validatePayChecked()) {
-                document.getElementById("confirm").classList.remove("hidden");
-            };
+            input.path.classList.remove("invalid");
+            input.path.nextElementSibling.classList.add("hidden");
+            input.status = true;
         }
     });
+
+    let isContactDetailsValid = inputFields.some(function (input) {
+        return input.status === false;
+    });
+
+    let isShopCarValid = validateShopCar();
+    let isPaycheckedValid = validatePayChecked();
+
+    if (isShopCarValid && isPaycheckedValid && !isContactDetailsValid) {
+        document.getElementById("confirm").classList.remove("hidden");
+    }
 }
 
 function submitTry() {
@@ -143,8 +149,7 @@ function submitTry() {
     if (finaleBuy.length > 0) {
         finaleBuy[0].addEventListener("submit", (e) => {
             e.preventDefault();
-            // formValidate(e);
-            document.getElementById("confirm").classList.remove("hidden");
+            formValidate(e);
         });
     }
 }

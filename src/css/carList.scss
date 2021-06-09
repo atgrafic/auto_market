@@ -3,11 +3,7 @@
     width: 70%;
     margin: 0 auto;
 }
-// .listCarTop{
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-// }
+
 
 .car-name-chosse {
     @include font_H2_span;
@@ -75,6 +71,7 @@
     @include font_description;
     text-decoration: none;
     margin: 50px 0 20px 0;
+    display: block;
 }
 
 @media only screen and (max-width: 992px) {
