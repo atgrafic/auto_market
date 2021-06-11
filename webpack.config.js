@@ -51,7 +51,7 @@ module.exports = {
                 use: {
                     loader: "file-loader",
                     options: {
-                        outputPath: "./image",
+                        outputPath: "https://atgrafic.github.io/auto_market/dist/image",
                         name: "[name].[ext]",
                     },
                 },
