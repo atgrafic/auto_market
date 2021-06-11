@@ -10,9 +10,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
         "https://atgrafic.github.io/auto_market/dist/image/BMW_X5_D_1.jpg",
-        "../dist/image/BMW_X5_D_3.jpg",
-        "image/BMW_X5_D_3.jpg",
-        "./image/BMW_X5_D_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/BMW_X5_D_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/BMW_X5_D_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/BMW_X5_D_4.jpg"
     ]
 },
 {
@@ -25,10 +25,10 @@
     "priceNumber": 84999,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Ford_ Edge_1.jpg",
-        "../image/Ford_ Edge_2.jpg",
-        "../image/Ford_ Edge_3.jpg",
-        "../image/Ford_ Edge_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Edge_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Edge_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Edge_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Edge_4.jpg"
     ]
 },
 {
@@ -41,10 +41,10 @@
     "priceNumber": 102000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/BMW X1_1.jpg",
-        "../image/BMW X1_2.jpg",
-        "../image/BMW X1_3.jpg",
-        "../image/BMW X1_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/BMW X1_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/BMW X1_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/BMW X1_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/BMW X1_4.jpg"
     ]
 },
 {
@@ -57,10 +57,10 @@
     "priceNumber": 125352,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Kia Sportage_1.jpg",
-        "../image/Kia Sportage_2.jpg",
-        "../image/Kia Sportage_3.jpg",
-        "../image/Kia Sportage_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Kia Sportage_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Kia Sportage_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Kia Sportage_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Kia Sportage_4.jpg"
     ]
 },
 {
@@ -73,10 +73,10 @@
     "priceNumber": 85000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Mazda_CX_5_1.jpg",
-        "../image/Mazda_CX_5_2.jpg",
-        "../image/Mazda_CX_5_3.jpg",
-        "../image/Mazda_CX_5_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_CX_5_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_CX_5_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_CX_5_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_CX_5_4.jpg"
     ]
 },
 {
@@ -88,7 +88,7 @@
     "price": "96 000 PLN",
     "priceNumber": 96000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/BMW_5_1.jpg", "../image/BMW_5_2.jpg", "../image/BMW_5_3.jpg", "../image/BMW_5_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/BMW_5_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/BMW_5_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/BMW_5_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/BMW_5_4.jpg"]
 },
 {
     "id":"7",
@@ -100,10 +100,10 @@
     "priceNumber": 70000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Mazda_6_1.jpg",
-        "../image/Mazda_6_2.jpg",
-        "../image/Mazda_6_3.jpg",
-        "../image/Mazda_6_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_4.jpg"
     ]
 },
 {
@@ -116,10 +116,10 @@
     "priceNumber": 66000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Audi_A4_1.jpg",
-        "../image/Audi_A4_2.jpg",
-        "../image/Audi_A4_3.jpg",
-        "../image/Audi_A4_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_A4_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_A4_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_A4_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_A4_4.jpg"
     ]
 },
 {
@@ -132,10 +132,10 @@
     "priceNumber": 63000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Ford_Mondeo_1.jpg",
-        "../image/Ford_Mondeo_2.jpg",
-        "../image/Ford_Mondeo_3.jpg",
-        "../image/Ford_Mondeo_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Mondeo_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Mondeo_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Mondeo_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Ford_Mondeo_4.jpg"
     ]
 },
 {
@@ -147,7 +147,7 @@
     "price": "63 000 PLN",
     "priceNumber": 63000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/RAV_1.jpg", "../image/RAV_2.jpg", "../image/RAV_3.jpg", "../image/RAV_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/RAV_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/RAV_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/RAV_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/RAV_4.jpg"]
 },
 {
     "id":"11",
@@ -159,10 +159,10 @@
     "priceNumber": 47000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Corolla_1.jpg",
-        "../image/Corolla_2.jpg",
-        "../image/Corolla_3.jpg",
-        "../image/Corolla_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Corolla_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Corolla_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Corolla_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Corolla_4.jpg"
     ]
 },
 {
@@ -174,7 +174,7 @@
     "price": "39 000 PLN",
     "priceNumber": 39000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/Auris_1.jpg", "../image/Auris_2.jpg", "../image/Auris_3.jpg", "../image/Auris_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/Auris_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/Auris_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/Auris_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/Auris_4.jpg"]
 },
 {
     "id":"13",
@@ -185,7 +185,7 @@
     "price": "47 000 PLN",
     "priceNumber": 47000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/Kia_1.jpg", "../image/Kia_2.jpg", "../image/Kia_3.jpg", "../image/Kia_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/Kia_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/Kia_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/Kia_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/Kia_4.jpg"]
 },
 {
     "id":"14",
@@ -196,7 +196,7 @@
     "price": "51 000 PLN",
     "priceNumber": 51000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/KiaS_1.jpg", "../image/KiaS_2.jpg", "../image/KiaS_3.jpg", "../image/KiaS_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/KiaS_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/KiaS_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/KiaS_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/KiaS_4.jpg"]
 },
 {
     "id":"15",
@@ -208,10 +208,10 @@
     "priceNumber": 66000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Audi_4_1.jpg",
-        "../image/Audi_4_2.jpg",
-        "../image/Audi_4_3.jpg",
-        "../image/Audi_4_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_4_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_4_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_4_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Audi_4_4.jpg"
     ]
 },
 {
@@ -224,10 +224,10 @@
     "priceNumber": 68000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Mondeo_1.jpg",
-        "../image/Mondeo_2.jpg",
-        "../image/Mondeo_3.jpg",
-        "../image/Mondeo4_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Mondeo_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mondeo_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mondeo_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mondeo4_4.jpg"
     ]
 },
 {
@@ -240,10 +240,10 @@
     "priceNumber": 54000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Mazda_6a_1.jpg",
-        "../image/Mazda_6a_2.jpg",
-        "../image/Mazda_6a_3.jpg",
-        "../image/Mazda_6a_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6a_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6a_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6a_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6a_4.jpg"
     ]
 },
 {
@@ -256,10 +256,10 @@
     "priceNumber": 30000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Mazda_3_1.jpg",
-        "../image/Mazda_3_2.jpg",
-        "../image/Mazda_3_3.jpg",
-        "../image/Mazda_3_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_3_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_3_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_3_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_3_4.jpg"
     ]
 },
 {
@@ -271,7 +271,7 @@
     "price": "51 000 PLN",
     "priceNumber": 51000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/Q5_1.jpg", "../image/Q5_2.jpg", "../image/Q5_3.jpg", "../image/Q5_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/Q5_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/Q5_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/Q5_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/Q5_4.jpg"]
 },
 {
     "id":"20",
@@ -283,10 +283,10 @@
     "priceNumber": 75000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
     "image": [
-        "../image/Mazda_6_1.jpg",
-        "../image/Mazda_6_2.jpg",
-        "../image/Mazda_6_3.jpg",
-        "../image/Mazda_6_4.jpg"
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_1.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_2.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_3.jpg",
+        "https://atgrafic.github.io/auto_market/dist/image/Mazda_6_4.jpg"
     ]
 },
 {
@@ -298,5 +298,5 @@
     "price": "62 000 PLN",
     "priceNumber": 62000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales diam magna, in elementum sem tristique nec. Nulla blandit eleifend laoreet. Donec a pulvinar metus. Vivamus placerat scelerisque quam, in condimentum ligula bibendum et. Nulla volutpat risus in ex finibus consequat. Morbi condimentum blandit hendrerit. Etiam et viverra lorem. Aenean posuere arcu quis erat placerat placerat eu id augue.",
-    "image": ["../image/Q5a_1.jpg", "../image/Q5a_2.jpg", "../image/Q5a_3.jpg", "../image/Q5a_4.jpg"]
+    "image": ["https://atgrafic.github.io/auto_market/dist/image/Q5a_1.jpg", "https://atgrafic.github.io/auto_market/dist/image/Q5a_2.jpg", "https://atgrafic.github.io/auto_market/dist/image/Q5a_3.jpg", "https://atgrafic.github.io/auto_market/dist/image/Q5a_4.jpg"]
 }]}
