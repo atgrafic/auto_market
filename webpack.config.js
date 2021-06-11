@@ -37,7 +37,7 @@ module.exports = {
             template: "./src/index.html",
         }),
 
-        new CopyPlugin([{ from: "src/assets/image", to: "./image" }]),
+        new CopyPlugin([{ from: "src/assets/image", to: "image" }]),
         // new CleanWebpackPlugin(),
     ],
     module: {
