@@ -37,7 +37,7 @@ module.exports = {
             template: "./src/index.html",
         }),
 
-        new CopyPlugin([{ from: "src/assets/image", to: "./auto_market/dist/image" }]),
+        new CopyPlugin([{ from: "src/assets/image", to: "./image" }]),
         // new CleanWebpackPlugin(),
     ],
     module: {
@@ -52,7 +52,7 @@ module.exports = {
                     loader: "file-loader",
                     options: {
                         outputPath: "/image",
-                        name: "[name].[ext]",
+                        name: "[path][name].[ext]",
                     },
                 },
             },
