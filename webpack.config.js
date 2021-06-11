@@ -51,8 +51,8 @@ module.exports = {
                 use: {
                     loader: "url-loader",
                     options: {
-                        outputPath: "/image",
-                        name: "[path][name].[ext]",
+                        outputPath: "./image",
+                        name: "[name].[ext]",
                     },
                 },
             },
