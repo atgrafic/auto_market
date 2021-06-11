@@ -25,7 +25,7 @@ function getForm() {
                      <p class="chooseCar">  ${brandList[i].name}</p>
                      <p>Cena samochodu:  <br/><span class="styledCurrency" id="price">${brandList[i].priceNumber}</span> PLN</p>
                      <p >Łączna wartość samochodu:<br/><span class="styledCurrency lastSum" id="sum">${brandList[i].priceNumber} </span> PLN  </p>
-                     <p>Sposób płatności:<span id="pay"> </span></p>
+                     <p class="space">Sposób płatności:<br/> <span id="pay"> </span></p>
                      <p>Sposób odbioru:<br/> <span id="reception"></span></p>
                      </div>`;
         }
@@ -117,7 +117,7 @@ function formRadio() {
             <label>Miasto</label>
             <input type="text" name="city"  class="contact" placeholder="Miasto"/>
             <div class="error-hint hidden">To pole jest obowiąskowe</div>
-            <button type="submit">kupuję</button>
+            <button class="price" type="submit">kupuję</button>
             <a href="/newCar" class="hidden" id="confirm" data-link>Potwierdzam zakup samochodu</a>
             </form>
     </div>

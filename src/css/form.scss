@@ -2,75 +2,115 @@
 @import "carList.scss";
 @import "car.scss";
 
-
-.invalid{
+.invalid {
     border: 1px solid $color_secend;
 }
-.error-hint{
-    color:$color_secend;
+.error-hint {
+    color: $color_secend;
     padding-bottom: 10px;
 }
-.hidden{
+.hidden {
     display: none;
 }
 
-// .stylrForm{
-//     width: 70%;
-//     margin: 50px auto 0 auto;
+.stylrForm {
+    width: 70vw;
+    margin: 50px auto 0 auto;
 
-//     display: flex;
-//     justify-content: space-evenly;
-//     flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
 
-// }
+.carForm {
+    text-align: center;
+    border: $border_main;
+    width: 350px;
+    height: 650px;
+    display: inline-block;
+}
+.price {
+    @include button;
+    @include link;
+    color: $color_secend;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.price:hover {
+    @include button-orange-white;
+}
 
-// .carForm{
-// text-align: center;
-// border: $border_main;
-// width: 350px;
-// height: 650px;
-// display: inline-block;
-// }
-// .price {
-//     @include button;
-//     @include link;
-//     color: $color_secend;
-//     margin: 10px auto;
-//     cursor: pointer;
+.lastSum,
+.chooseCar {
+    color: $color_secend;
+    font-family: $font_title;
+    font-size: 2em;
+}
+.chooseCar {
+    margin-top: 30px;
+}
+.space {
+    margin-top: 30px;
+}
+.leftSite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form p {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.contact,
+.Check,
+.buyForm {
+    margin: 5px 0;
+}
+#confirm {
+    font-size: 1.6em;
+    margin: 0 auto;
+    font-family: $font_title;
+    color: $color_secend;
+    text-decoration: none;
+}
+.newCarReception {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.car-photoNew {
+    margin: 0 auto 60px auto;
+    width: 60vw;
+    height: auto;
+    display: flex;
+}
+#pay, #reception{
+    color: $color_secend;
+}
+@media only screen and (max-width: 1200px) {
+    .stylrForm {
+        width: 100vw;
+    }
+    .listCar {
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .listCar {
+        width: 100vw;
+    }
+    .stylrForm{
+        flex-direction: column;
+        align-items: center;
 
-// }
-// .price:hover {
-//     @include button-orange-white;
-// }
-
-
-// .lastSum, .chooseCar {
-//     color: $color_secend;
-//     font-family: $font_title;
-//     font-size: 2em;
-// }
-// .chooseCar{
-//     margin-top: 15px;
-// }
-// // input[type="radio" i],input[type="checkbox" i] {
-// //     background-color: $color_secend;
-// // }
-// .leftSite{
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-around;
-// }
-// form{
-//     display: flex;
-//     flex-direction: column;
-
-// }
-// form p{
-//     font-size: 1.2em;
-//     font-weight: 700;
-//     margin-top: 15px;
-//     margin-bottom: 5px;
-// }
-// .contact, .Check, .buyForm{
-// margin: 5px 0;
-// }
+    }
+    .chooseCar {
+        font-size: 1.8em;
+    }
+}

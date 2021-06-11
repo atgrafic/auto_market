@@ -41,10 +41,10 @@ function carTemplate(car) {
 
 function searchForm() {
     return `<div class='carSearch'>
-    <form type='text'>
+
     <span class='placeholder'>Wybierz marke samochodu:</span>
     <select id='brand'> ${displayjson()}</select>
-    </form>
+
     </div>`;
 }
 

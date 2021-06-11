@@ -37,6 +37,7 @@ $width:1200px;
     background-color: $color_white;
     border: $border_secend_color;
     outline: none;
+    transition: all 0.4s ease 0s;
 
 }
 @mixin button-orange-white{
@@ -94,4 +95,29 @@ body {
     margin: 0 auto;
 }
 
-
+input[type='radio']:checked:after {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: $color_secend;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='checkbox']:checked:after {
+    width: 13px;
+    height: 13px;
+    border-radius: 5px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: $color_secend;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}

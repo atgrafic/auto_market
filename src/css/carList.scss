@@ -1,6 +1,6 @@
 @import "index.scss";
 .listCar {
-    width: 70%;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -11,7 +11,7 @@
     margin: 50px 0;
 }
 
-.car-photo_1 {
+#expandedImg {
     width: 50vw;
     height: auto;
     margin-right: 30px;
@@ -19,25 +19,37 @@
 .all_car_photo {
     display: flex;
     justify-content: flex-start;
+    height: auto;
 }
 
 .sumPhoto {
     display: flex;
-    justify-content: flex-start;
-    margin-top: 30px;
-
-    img {
-        width: 15vw;
-        height: auto;
-        margin-right: 30px;
-    }
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width:  50vw;;
 }
+
+    .overlay{
+    background: $color_secend;
+    width: 11vw;
+    height: 9vw;
+}
+   .overlay img {
+        width: 11vw;
+        height: 9vw;
+        opacity: 1;
+        transition: .3s ease-in-out;
+    }
+   .overlay img:hover{
+        opacity: 0.6;
+    }
+
 .description {
     @include font_H2_span;
     font-family: $font_title;
     font-weight: 500;
     margin: 50px 0 20px 0;
-    width: 70%;
+    width: 70vw;
 }
 .ditels {
     display: flex;
@@ -80,12 +92,15 @@
         margin-top: 0;
         flex-direction: column;
 
-        img {
+        .overlay{
             width: 15vw;
-            height: auto;
-            margin-right: 0;
-            margin-bottom: 15px;
+            height: 13vw;
         }
+           .overlay img {
+                width: 15vw;
+                height: 13vw;
+
+            }
     }
     .all_car_photo {
         flex-direction: column;
@@ -94,6 +109,10 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    .car-km{
+        margin-right: 50px;
+    }
+
     #content {
         display: flex;
         justify-content: space-between;
@@ -101,6 +120,10 @@
     #car-buy {
         margin-top: 50px;
     }
+  .destription_allion{
+      display: block;
+  }
+
 }
 @media only screen and (max-width: 768px) {
     .sumPhoto {

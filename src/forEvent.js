@@ -132,14 +132,14 @@ function formValidate(e) {
         }
     });
 
-    let isContactDetailsValid = inputFields.some(function (input) {
+    let isAnyContactDetailsInvalid = inputFields.some(function (input) {
         return input.status === false;
     });
 
     let isShopCarValid = validateShopCar();
     let isPaycheckedValid = validatePayChecked();
 
-    if (isShopCarValid && isPaycheckedValid && !isContactDetailsValid) {
+    if (isShopCarValid && isPaycheckedValid && !isAnyContactDetailsInvalid) {
         document.getElementById("confirm").classList.remove("hidden");
     }
 }

@@ -6,7 +6,7 @@ footer {
 
 }
 .footer {
-    width: 70%;
+    width: 70vw;
     margin: 0 auto;
     padding: 60px 0;
     display: flex;
@@ -30,7 +30,7 @@ footer {
 }
 .small_description,
 .menu_contact {
-    width: 40%;
+    width: 40vw;
 }
 .menu_contact h2 {
     color: $color_white;
@@ -50,7 +50,7 @@ footer {
 .menu_contact {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 50vw;
 }
 
 .copyright {
@@ -60,8 +60,15 @@ footer {
     text-align: center;
 }
 @media only screen and (max-width: 768px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
     footer {
-        margin-top: 0;
+        margin-top: auto;
+        // min-height: calc(100vh - 109px);
     }
 
     .footer {
@@ -69,7 +76,7 @@ footer {
         justify-content: center;
     }
     .small_description {
-        width: 80%;
+        width: 80vw;
     }
     .logoWhite{
         margin:0 auto ;
@@ -83,6 +90,7 @@ footer {
 
     .copyright {
         text-align: center;
-        width: 80%;
+        width: 80vw;
     }
+
 }

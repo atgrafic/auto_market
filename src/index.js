@@ -6,19 +6,15 @@ import header_style from "./css/header.scss";
 import footer from "./css/footer.scss";
 import form from "./css/form.scss";
 import focarListrm from "./css/carList.scss";
-import newCar from "./css/newCar.scss";
 
 import header from "./views/header.js";
-// import car from "./views/marketCar.js";
 import buy from "./views/buy.js";
 import carList from "./views/carList.js";
 import formCar from "./views/form.js";
 import carNew from "./views/newCar.js";
 
 import forEvent from "./forEvent.js";
-// import contact from "./views/contact.js";
-// import about from "./views/about.js";
-// import sale from "./views/sale.js";
+
 
 const pathToRegex = (path) =>
     new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
@@ -41,15 +37,10 @@ const navigateTo = (url) => {
 
 const router = async () => {
     const routes = [
-        // { path: "/", view: car },
         { path: "/kup", view: buy },
         { path: "/kup/:id", view: carList },
         { path: "/form", view: formCar },
         { path: "/newCar", view: carNew },
-        // { path: "/kontakt", view: contact },
-        //  { path: "/sprzedaj", view:sale},
-        // { path: "/onas", view: about },
-
     ];
 
     const potentialMatches = routes.map((route) => {
@@ -100,4 +91,10 @@ function styleAll() {
     }
 }
 
+function imageEvent() {
+    let imageTab = document.getElementsByClassName("imageTab");
+    let expandImg = document.getElementById("expandedImg");
 
+    expandImg.src = imageTab[i].src;
+    expandImg.parentElement.style.display = "block";
+}

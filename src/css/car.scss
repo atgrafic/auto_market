@@ -34,6 +34,7 @@
         font-size: 2em;
     }
 }
+
 #brand {
     @include input;
     @include style_triangle;
@@ -44,7 +45,7 @@ option {
 }
 .carSearch {
     max-width: $width;
-    width: 70%;
+    width: 70vw;
     margin: 0 auto 40px auto;
     text-align: center;
     display: block;
@@ -54,10 +55,11 @@ option {
     top: -125px;
 }
 .placeholder {
-    @include font_H2_span;
+    padding-right: 10px;
+    font-size: 1.6em;
     font-family: $font_title;
     font-weight: 900;
-    padding-right: 10px;
+
 }
 p {
     @include font_description;
@@ -85,6 +87,7 @@ p {
         text-align: left;
         margin: 0 0 0 15px;
     }
+
 }
 hr {
     margin: 10px 10px 20px 10px;
@@ -94,6 +97,7 @@ hr {
 }
 .car-photo {
     @include img_car_list;
+
 }
 .car-name {
     @include font_H2_span;
@@ -121,11 +125,19 @@ hr {
     @include button-orange-white;
 }
 
-.tabCar {
+  .tabCar {
     width: 350px;
-    height: 485px;
+    height: 475px;
     display: block;
     position: absolute;
+    &:hover{
+        background-color: $color_secend;
+        opacity: 0.30;
+        width: 350px;
+        height: 263px;
+
+    }
+
 }
 @media only screen and (max-width: 1200px) {
     #carsList {
@@ -162,7 +174,7 @@ hr {
     }
     #carsList {
         justify-content: space-around;
-        width: 85%;
+        width: 85vw;
     }
 
 }
@@ -189,10 +201,10 @@ hr {
         justify-content: center;
     }
     .carSearch {
-        width: 80%;
+        width: 80vw;
     }
     #carsList {
         justify-content: center;
-        width: 80%;
+        width: 80vw;
     }
 }
