@@ -22,7 +22,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, "dist"),
-        publicPath: "/",
+        // publicPath: "/",
         filename: "[name].[contenthash].bundle.js",
     },
     devServer: {
