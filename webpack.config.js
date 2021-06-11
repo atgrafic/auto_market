@@ -37,7 +37,7 @@ module.exports = {
             template: "./src/index.html",
         }),
 
-        new CopyPlugin([{ from: "src/assets/image", to: "https://atgrafic.github.io/auto_market/dist/image" }]),
+        new CopyPlugin([{ from: "src/assets/image", to: "./auto_market/dist/image" }]),
         // new CleanWebpackPlugin(),
     ],
     module: {
